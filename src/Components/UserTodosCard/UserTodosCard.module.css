@@ -1,0 +1,31 @@
+.card {
+    background-color: #212529;
+    color: #fff;
+    border-radius: 50px 50px 0 0;
+    padding: 30px;
+    width: 100%;
+    border-bottom: 3px solid #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .note {
+    flex-grow: 1;
+  }
+  
+  .note::first-letter {
+    text-transform: uppercase;
+  }
+
+  .completed_note {
+    text-decoration: line-through;
+    color: gray;
+  }

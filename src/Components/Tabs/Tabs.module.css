@@ -1,0 +1,31 @@
+.active {
+  display: block;
+}
+
+.disabled {
+  display: none;
+}
+
+.tabList {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #212529;
+  outline: none;
+  border: 1px solid #212529;
+  transition: 0.5s;
+}
+
+.tabActive {
+  color: #212529;
+  background-color: #fff;
+  border-radius: 0;
+}

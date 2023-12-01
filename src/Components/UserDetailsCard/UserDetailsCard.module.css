@@ -1,0 +1,43 @@
+.card {
+  background-color: #212529;
+  color: #fff;
+  border-radius: 50px 50px 0 0;
+  padding: 30px;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.name {
+  margin-top: 0;
+  font-size: 2rem;
+  border-bottom: 1px solid #fff;
+}
+
+.field {
+  display: flex;
+  gap: 15px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.label {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  line-height: normal;
+  vertical-align: top;
+}
+
+.info {
+  font-size: 1rem;
+}

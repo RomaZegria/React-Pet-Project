@@ -1,0 +1,39 @@
+.card {
+  background-color: #212529;
+  color: #fff;
+  border-radius: 50px 50px 0 0;
+  padding: 30px;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-left: 10px;
+  letter-spacing: 0.1rem;
+}
+
+.title::first-letter {
+  text-transform: uppercase;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom: 2px solid white;
+  padding: 5px;
+}
+
+.post:last-child {
+  border: none;
+}
+
+.info {
+  font-size: 1rem;
+}

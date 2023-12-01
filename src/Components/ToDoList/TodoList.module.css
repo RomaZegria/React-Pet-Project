@@ -1,0 +1,27 @@
+.container {
+  padding: 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.error {
+  color: red;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.loader {
+  color: gray;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.list_item {
+  cursor: pointer;
+}
+
+.completed_note {
+  text-decoration: line-through;
+}
